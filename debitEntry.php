@@ -44,8 +44,8 @@ $a=mysqli_fetch_assoc($ans);
     $mail->IsHTML(true);
 
     //Authentication
-    $mail->Username = "naveensachin2002@gmail.com";
-    $mail->Password = "menczeybjqnhwwgu";
+    $mail->Username = "";//mailId
+    $mail->Password = "";//app password
 
     //Set Params
     $mail->SetFrom("foo@gmail.com","Ledger");
